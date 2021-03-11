@@ -171,6 +171,11 @@ nav-list-link:hover {
   color: var(--accent-color-primary);
 }
 
+.header-contacts-link:hover .contacts-link-icon,
+.header-contacts-link:focus .contacts-link-icon {
+  fill: var(--accent-color-primary);
+}
+
 .contacts-link-icon {
   width: 16px;
   height: 12px;
@@ -178,10 +183,10 @@ nav-list-link:hover {
   fill: #757575;
 }
 
-.contacts-link-icon:hover,
+/* .contacts-link-icon:hover,
 .contacts-link-icon:focus {
   fill: var(--accent-color-primary);
-}
+} */
 
 /*===========END HEADER============*/
 
@@ -190,6 +195,22 @@ nav-list-link:hover {
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.hero-background {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero/hero-bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -377,6 +398,12 @@ nav-list-link:hover {
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  color: #afb1b8;
 }
 
 .dark-background-container {
