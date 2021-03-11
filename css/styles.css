@@ -398,18 +398,61 @@ nav-list-link:hover {
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 
-.social-list-icon {
+/* .stuff-container {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.stuff-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stuff-social-list > li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.stuff-social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+}
+
+.stuff-social-list-link:hover,
+.stuff-social-list-link:focus {
+  background-color: var(--accent-color-primary);
+}
+
+.stuff-social-list-link .social-list-icon {
   width: 20px;
   height: 20px;
-  color: #afb1b8;
+  fill: #afb1b8;
+}
+
+.stuff-social-list-link:hover .social-list-icon,
+.stuff-social-list-link:focus .social-list-icon {
+  fill: white;
 }
 
 .dark-background-container {
   background-color: var(--background-dark);
 }
 /*=================END OUR TEAM===================*/
+
+/*=================OUR CLIENTS===================*/
+.clients-list {
+  display: flex;
+}
+
+/*================END OUR CLIENTS================*/
 
 /*=====================FOOTER=====================*/
 
