@@ -15,7 +15,7 @@
 </head>
 <body>
     <!--header-->
-    <header class="header portfolio-header">
+    <header class="header">
         <div class=" header-section container">
             <nav class="nav-section">
                 <a class="logo link" href="/"><span class="logo-web">Web</span><span
@@ -29,8 +29,22 @@
             </nav>
     
             <ul class="header-contacts list">
-                <li><a class="header-contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="header-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li>
+                    <a class="header-contacts-link link" href="mailto:info@devstudio.com">
+                        <svg class="contacts-link-icon">
+                            <use href=./images/sprite.svg#icon-email></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li>
+                    <a class="header-contacts-link link" href="tel:+380961111111">
+                        <svg class="contacts-link-icon">
+                            <use href=./images/sprite.svg#icon-tel></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     
@@ -65,7 +79,7 @@
                 
                 <ul class="project-list list">
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/website.jpg" alt="сайт технокряк" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Технокряк</h3>
@@ -75,7 +89,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/new.jpg" alt="дизайн постера с баскетболистами" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Постер New Orlean vs Golden Star</h3>
@@ -85,7 +99,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/seafood.jpg" alt="приложение для ресторана морепродуктов" width="370"
                                 height="294">
                             <div class="project-item-description">
@@ -96,7 +110,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/prime.jpg" alt="накладные наушники" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Проект Prime</h3>
@@ -106,7 +120,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/boxes.jpg" alt="логотип две картонные коробки" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Проект Boxes</h3>
@@ -116,7 +130,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/inspiration.jpg" alt="скриншот страницы сайта" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Inspiration has no Borders</h3>
@@ -126,7 +140,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/limited.jpg" alt="дизайн оформления книги" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Издание Limited Edition</h3>
@@ -136,7 +150,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/lab.jpg" alt="брендированная этикетка" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Проект LAB</h3>
@@ -146,7 +160,7 @@
                     </li>
                 
                     <li class="project-list-item">
-                        <a class="link" href="">
+                        <a class="project-link link" href="">
                             <img src="./images/portfolio/growing.jpg" alt="работа за компьютером" width="370" height="294">
                             <div class="project-item-description">
                                 <h3 class="project-name">Growing Business</h3>
@@ -162,27 +176,64 @@
     <!--footer-->
     <footer class="dark-background-container footer-container">
     
-        <div class="footer-content-placing container">
-            <address>
+        <div class="df container">
+            <div class="footer-content-placing">
+                <address>
+                    <div class="footer-logo">
+                        <a class="logo link" href="/"><span class="logo-web">Web</span><span
+                                class="logo-studio-dark">Studio</span></a>
+                    </div>
     
-                <div class="footer-logo">
-                    <a class="logo link" href="/"><span class="logo-web">Web</span><span
-                            class="logo-studio-dark">Studio</span></a>
-                </div>
+                    <ul class="address list">
+                        <li>
+                            <a class="adress-link-location link" href="https://goo.gl/maps/zq5mr7NmoWSacKAB8">г. Киев, пр-т
+                                Леси
+                                Украинки, 26</a>
+                        </li>
+                        <li>
+                            <a class="adress-link link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li>
+                            <a class="adress-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
     
-                <ul class="address list">
-                    <li>
-                        <a class="adress-link-location link" href="https://goo.gl/maps/zq5mr7NmoWSacKAB8">г. Киев, пр-т Леси
-                            Украинки, 26</a>
+            <div class="footer-content-placing">
+                <p class="footer-social-title">Присоединяйтесь</p>
+    
+                <ul class="social-list list">
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-list-icon">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <a class="adress-link link" href="mailto:info@example.com">info@example.com</a>
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-list-icon">
+                                <use href="./images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <a class="adress-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-list-icon">
+                                <use href="./images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-list-icon">
+                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     
     </footer>
